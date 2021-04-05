@@ -7,13 +7,41 @@ scanf(): to take input from user
 
 */
 
+/*
+
++ , - , * , / , % , | , << , >> , ^ , & 
+
+Bitwise operators:
+| : or
+& : and
+^ : xor
+<< : left shift
+>> : right shift
+
+*/
+
 #include<stdio.h>
 void main(){
-    int a,b;
-    printf("Enter first number: ");
+    int a;
+    int b;
     scanf("%d",&a);
-    printf("Enter second number: ");
     scanf("%d",&b);
-    printf("Sum of number is: %d",a+b);
+    int max = a>b?a:b;
+    printf("Max:%d",max);
 }
 
+/*
+or 
+0 || 0 = 0
+0 || 1 = 1
+1 || 0 = 1
+1 || 1 = 1
+*/
+
+/*
+and 
+0 && 0 = 0
+0 && 1 = 0
+1 && 0 = 0
+1 && 1 = 1
+*/
