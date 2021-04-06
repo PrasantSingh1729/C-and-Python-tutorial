@@ -1,47 +1,14 @@
-/*
-
-#include<stdio.h>: header file  is compulsary
-main(): function is the only function which execute in program
-printf(): to print something
-scanf(): to take input from user 
-
-*/
-
-/*
-
-+ , - , * , / , % , | , << , >> , ^ , & 
-
-Bitwise operators:
-| : or
-& : and
-^ : xor
-<< : left shift
->> : right shift
-
-*/
+// Types of operator 
+// Uniary operator
+// Arithmetic operator
+// Relational operator
+// logical operator
+// bitwise operator
+// Contional operator 
 
 #include<stdio.h>
 void main(){
-    int a;
-    int b;
-    scanf("%d",&a);
-    scanf("%d",&b);
-    int max = a>b?a:b;
-    printf("Max:%d",max);
+    printf("Prasant");
+    printf("Tesu");    
 }
 
-/*
-or 
-0 || 0 = 0
-0 || 1 = 1
-1 || 0 = 1
-1 || 1 = 1
-*/
-
-/*
-and 
-0 && 0 = 0
-0 && 1 = 0
-1 && 0 = 0
-1 && 1 = 1
-*/
